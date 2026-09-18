@@ -1,0 +1,36 @@
+---
+title: "React Native Fast Image 3.0.0"
+sidebarTitle: "Fast Image 3.0.0"
+description: "The @amazon-devices/react-native-fast-image version 3.0.0 provides support on Vega for react-native-fast-image, a performant React Native image component."
+---
+
+The `@amazon-devices/react-native-fast-image` version 3.0.0 provides support on Vega for `react-native-fast-image`, which provides a performant React Native image component.
+
+## Installation
+
+<CodeGroup>
+```bash npm
+npm install @amazon-devices/react-native-fast-image
+```
+
+```bash yarn
+yarn add @amazon-devices/react-native-fast-image
+```
+</CodeGroup>
+
+## Usage
+
+```jsx
+import FastImage from '@amazon-devices/react-native-fast-image';
+
+const MyComponent = () => (
+  <FastImage
+    style={{ width: 200, height: 200 }}
+    source={{
+      uri: 'https://example.com/image.png',
+      priority: FastImage.priority.high,
+    }}
+    resizeMode={FastImage.resizeMode.contain}
+  />
+);
+```

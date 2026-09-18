@@ -16,6 +16,12 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "React Native Libraries",
+        "pages": [
+          "react-native-libraries/react-native-fast-image-3-0-0"
+        ]
       }
     ],
     "global": {
