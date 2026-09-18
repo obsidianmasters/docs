@@ -68,5 +68,10 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "seo": {
+    "metatags": {
+      "og:image": "/images/og-image.jpeg"
+    }
   }
 }
